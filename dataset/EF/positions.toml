@@ -220,7 +220,7 @@ id = "EFOU_APP"
 prefixes = ["EFOU"]
 frequency = "118.150"
 facility_type = "APP"
-profile_id = "EF_Generic_regional"
+profile_id = "EFOU"
 
 [[positions]]
 id = "EFPO_APP"
@@ -234,14 +234,14 @@ id = "EFRO_APP"
 prefixes = ["EFRO"]
 frequency = "129.900"
 facility_type = "APP"
-profile_id = "EF_Generic_regional"
+profile_id = "EFRO"
 
 [[positions]]
 id = "EFRO_R_APP"
 prefixes = ["EFRO"]
 frequency = "118.600"
 facility_type = "APP"
-profile_id = "EF_Generic_regional"
+profile_id = "EFRO"
 
 [[positions]]
 id = "EFTP_APP"
@@ -381,14 +381,14 @@ id = "EFOU_TWR"
 prefixes = ["EFOU"]
 frequency = "124.400"
 facility_type = "TWR"
-profile_id = "EF_Generic_regional"
+profile_id = "EFOU"
 
 [[positions]]
 id = "EFOU_R_TWR"
 prefixes = ["EFOU_R"]
 frequency = "124.400"
 facility_type = "TWR"
-profile_id = "EF_Generic_regional"
+profile_id = "EFOU"
 
 [[positions]]
 id = "EFPO_TWR"
@@ -409,21 +409,21 @@ id = "EFRO_TWR"
 prefixes = ["EFRO"]
 frequency = "118.700"
 facility_type = "TWR"
-profile_id = "EF_Generic_regional"
+profile_id = "EFRO"
 
 [[positions]]
 id = "EFRO_R_TWR"
 prefixes = ["EFRO"]
 frequency = "118.700"
 facility_type = "TWR"
-profile_id = "EF_Generic_regional"
+profile_id = "EFRO"
 
 [[positions]]
 id = "EFRO_DEL"
 prefixes = ["EFRO"]
 frequency = "118.525"
 facility_type = "DEL"
-profile_id = "EF_Generic_regional"
+profile_id = "EFRO"
 
 [[positions]]
 id = "EFTP_TWR"
