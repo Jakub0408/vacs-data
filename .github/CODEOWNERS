@@ -10,6 +10,7 @@ CONTRIBUTING.md @vacs-project/maintainers
 
 # Dataset owners
 /dataset/AFRX/ @vacs-project/dataset-maintainers-afrx
+/dataset/CZQM/ @vacs-project/dataset-maintainers-czqm
 /dataset/EDGG/ @vacs-project/dataset-maintainers-edgg
 /dataset/EDMM/ @vacs-project/dataset-maintainers-edmm
 /dataset/EDWW/ @vacs-project/dataset-maintainers-edww
@@ -48,4 +49,3 @@ CONTRIBUTING.md @vacs-project/maintainers
 /dataset/TQ/ @vacs-project/dataset-maintainers-tncf
 /dataset/VH/ @vacs-project/dataset-maintainers-vh
 /dataset/WS/ @vacs-project/dataset-maintainers-ws
-/dataset/CZQM/ @vacs-project/dataset-maintainers-czqm
