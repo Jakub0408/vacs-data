@@ -258,12 +258,10 @@
             "rows": 2,
             "keys": [
               {
-                "label": ["North"],
-                "station_id": "SCO_N_CTR"
+                "label": ["North"]
               },
               {
-                "label": ["West"],
-                "station_id": "SCO_W_CTR"
+                "label": ["West"]
               }
             ]
           }
