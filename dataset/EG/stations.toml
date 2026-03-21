@@ -614,6 +614,169 @@ parent_id = "LON_SC_CTR"
 controlled_by = ["LON_C_CTR"]
 
 ####################
+# SCOTTISH SECTORS
+####################
+# Note: where it is not possible to split sectors apart on VATSIM, the station is combined
+
+[[stations]]
+id = "EG-Talla"
+parent_id = "STC_E_CTR"
+
+[[stations]]
+id = "EG-Galloway"
+parent_id = "STC_W_CTR"
+
+[[stations]]
+id = "EG-Tay"
+parent_id = "SCL_TAY_CTR"
+
+[[stations]]
+id = "EG-Moray-Low"
+parent_id = "EG-Moray-High"
+controlled_by = ["SCO_L_CTR"]
+
+[[stations]]
+id = "EG-Hebrides-Low"
+parent_id = "EG-Hebrides-High"
+controlled_by = ["SCO_L_CTR"]
+
+# *****ATTENTION!!!*****
+# Westcoast sector split into pseudo-sectors, when Scottish Low isn't online, the respective upper
+# sector takes ownership of a slice identical to the upper sector in the lower Westcoast sector
+
+# Westcoast (Hebrides) is assumed as part of Hebrides Low for VACS purposes
+
+[[stations]]
+id = "EG-Westcoast-Central"
+parent_id = "EG-Central"
+controlled_by = ["SCO_L_CTR"]
+
+[[stations]]
+id = "EG-Westcoast-Rathlin"
+parent_id = "EG-Rathlin-West"
+controlled_by = ["SCO_L_CTR"]
+
+[[stations]]
+id = "EG-Antrim"
+parent_id = "STC_A_CTR"
+
+[[stations]]
+id = "EG-Rathlin-East"
+parent_id = "SCO_RE_CTR"
+
+[[stations]]
+id = "EG-Rathlin-West"
+parent_id = "SCO_R_CTR"
+
+[[stations]]
+id = "EG-Central"
+parent_id = "SCO_C_CTR"
+
+[[stations]]
+id = "EG-Hebrides-High"
+parent_id = "SCO_EH_CTR"
+
+[[stations]]
+id = "EG-Moray-High"
+parent_id = "SCO_N_CTR"
+
+[[stations]]
+id = "EG-Humber"
+parent_id = "SCO_H_CTR"
+
+[[stations]]
+id = "EG-Tyne"
+
+[[stations]]
+id = "EG-Grampian"
+
+[[stations]]
+id = "EG-Pennine"
+
+[[stations]]
+id = "EG-Solway"
+
+[[stations]]
+id = "EG-Borders"
+
+####################
+# SCOTTISH POSITIONS
+####################
+
+[[stations]]
+id = "SCO_CTR"
+controlled_by = ["SCO_CTR"]
+
+[[stations]]
+id = "SCO_L_CTR"
+controlled_by = ["SCO_L_CTR"]
+
+[[stations]]
+id = "SCL_TAY_CTR"
+controlled_by = ["SCL_TAY_CTR", "SCO_L_CTR"]
+
+[[stations]]
+id = "STC_CTR"
+controlled_by = ["STC_CTR", "SCO_L_CTR"]
+
+[[stations]]
+id = "STC_W_CTR"
+parent_id = "STC_CTR"
+controlled_by = ["STC_W_CTR"]
+
+[[stations]]
+id = "STC_E_CTR"
+parent_id = "STC_CTR"
+controlled_by = ["STC_E_CTR"]
+
+[[stations]]
+id = "STC_A_CTR"
+parent_id = "EG-Rathlin-East"
+controlled_by = ["STC_A_CTR", "SCO_L_CTR"]
+
+[[stations]]
+id = "SCO_RE_CTR"
+parent_id = "SCO_R_CTR"
+controlled_by = ["SCO_RE_CTR"]
+
+[[stations]]
+id = "SCO_R_CTR"
+parent_id = "SCO_W_CTR"
+controlled_by = ["SCO_R_CTR"]
+
+[[stations]]
+id = "SCO_C_CTR"
+parent_id = "SCO_W_CTR"
+controlled_by = ["SCO_C_CTR", "SCO_HC_CTR"]
+
+[[stations]]
+id = "SCO_EH_CTR"
+parent_id = "SCO_N_CTR"
+controlled_by = ["SCO_EH_CTR", "SCO_HC_CTR"]
+
+[[stations]]
+id = "SCO_HC_CTR"
+controlled_by = ["SCO_HC_CTR"]
+
+[[stations]]
+id = "SCO_W_CTR"
+controlled_by = ["SCO_W_CTR"]
+
+[[stations]]
+id = "SCO_E_CTR"
+parent_id = "SCO_CTR"
+controlled_by = ["SCO_E_CTR"]
+
+[[stations]]
+id = "SCO_N_CTR"
+parent_id = "SCO_E_CTR"
+controlled_by = ["SCO_N_CTR"]
+
+[[stations]]
+id = "SCO_H_CTR"
+controlled_by = ["SCO_H_CTR"]
+
+####################
 # FIS
 ####################
 
