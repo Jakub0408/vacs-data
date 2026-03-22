@@ -1053,6 +1053,41 @@ parent_id = "EGNX_APP"
 controlled_by = ["EGNX_F_APP"]
 
 [[stations]]
+id = "EGPB_TWR"
+parent_id = "EGPB_APP"
+controlled_by = ["EGPB_TWR"]
+
+[[stations]]
+id = "EGPB_APP"
+parent_id = "EG-Moray-Low"
+controlled_by = ["EGPB_APP"]
+
+[[stations]]
+id = "EGPD_GND"
+parent_id = "EGPD_TWR"
+controlled_by = ["EGPD_GND"]
+
+[[stations]]
+id = "EGPD_TWR"
+parent_id = "EGPD_APP"
+controlled_by = ["EGPD_TWR"]
+
+[[stations]]
+id = "EGPD_APP"
+parent_id = "EG-Tay"
+controlled_by = ["EGPD_APP", "EGPD_F_APP", "EGPD_H_APP"]
+
+[[stations]]
+id = "EGPD_F_APP"
+parent_id = "EGPD_APP"
+controlled_by = ["EGPD_F_APP"]
+
+[[stations]]
+id = "EGPD_H_APP"
+parent_id = "EGPD_APP"
+controlled_by = ["EGPD_H_APP"]
+
+[[stations]]
 id = "EGPF_GND"
 parent_id = "EGPF_TWR"
 controlled_by = ["EGPF_GND"]
