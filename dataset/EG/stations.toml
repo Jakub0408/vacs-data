@@ -1053,6 +1053,66 @@ parent_id = "EGNX_APP"
 controlled_by = ["EGNX_F_APP"]
 
 [[stations]]
+id = "EGPF_GND"
+parent_id = "EGPF_TWR"
+controlled_by = ["EGPF_GND"]
+
+[[stations]]
+id = "EGPF_TWR"
+parent_id = "EGPF_APP"
+controlled_by = ["EGPF_TWR"]
+
+[[stations]]
+id = "EGPF_APP"
+parent_id = "STC_W_CTR"
+controlled_by = ["EGPF_APP", "EGPF_F_APP"]
+
+[[stations]]
+id = "EGPF_F_APP"
+parent_id = "EGPF_APP"
+controlled_by = ["EGPF_F_APP"]
+
+[[stations]]
+id = "EGPH_DEL"
+parent_id = "EGPH_GND"
+controlled_by = ["EGPH_DEL"]
+
+[[stations]]
+id = "EGPH_GND"
+parent_id = "EGPH_TWR"
+controlled_by = ["EGPH_GND"]
+
+[[stations]]
+id = "EGPH_TWR"
+parent_id = "EGPH_APP"
+controlled_by = ["EGPH_TWR"]
+
+[[stations]]
+id = "EGPH_APP"
+parent_id = "STC_E_CTR"
+controlled_by = ["EGPH_APP", "EGPH_F_APP"]
+
+[[stations]]
+id = "EGPH_F_APP"
+parent_id = "EGPH_APP"
+controlled_by = ["EGPH_F_APP"]
+
+[[stations]]
+id = "EGPK_TWR"
+parent_id = "EGPK_APP"
+controlled_by = ["EGPK_TWR"]
+
+[[stations]]
+id = "EGPK_APP"
+parent_id = "STC_W_CTR"
+controlled_by = ["EGPK_APP", "EGPK_F_APP"]
+
+[[stations]]
+id = "EGPK_F_APP"
+parent_id = "EGPK_APP"
+controlled_by = ["EGPK_F_APP"]
+
+[[stations]]
 id = "EGSC_TWR"
 parent_id = "EGSC_APP"
 controlled_by = ["EGSC_TWR"]
