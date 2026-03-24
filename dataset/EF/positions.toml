@@ -262,7 +262,7 @@ id = "EFTU_APP"
 prefixes = ["EFTU"]
 frequency = "120.475"
 facility_type = "APP"
-profile_id = "EF_Generic_regional"
+profile_id = "EFTU"
 
 [[positions]]
 id = "EFHA_TWR"
@@ -451,7 +451,7 @@ id = "EFTU_TWR"
 prefixes = ["EFTU"]
 frequency = "118.300"
 facility_type = "TWR"
-profile_id = "EF_Generic_regional"
+profile_id = "EFTU"
 
 [[positions]]
 id = "EFTU_R_TWR"
