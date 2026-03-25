@@ -104,13 +104,6 @@ facility_type = "CTR"
 profile_id = "EFIN"
 
 [[positions]]
-id = "EFHK_FMP"
-prefixes = ["EFHK"]
-frequency = "199.998"
-facility_type = "FMP"
-profile_id = "EFHK"
-
-[[positions]]
 id = "EFHK_E_APP"
 prefixes = ["EFHK"]
 frequency = "119.100"
