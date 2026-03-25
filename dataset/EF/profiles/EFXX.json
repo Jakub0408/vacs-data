@@ -120,12 +120,12 @@
             "station_id": "ENBD-26"
           },
           {
-            "label": ["EETT N"],
-            "station_id": "EETT_N"
+            "label": ["EETT W11"],
+            "station_id": "EETT_W11"
           },
           {
-            "label": ["EETT W"],
-            "station_id": "EETT_W"
+            "label": ["EETT W12"],
+            "station_id": "EETT_W12"
           },
           {
             "label": []
