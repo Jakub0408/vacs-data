@@ -182,12 +182,10 @@
             "label": []
           },
           {
-            "label": ["TSA", "MIL"],
-            "station_id": "EFIN_MIL"
+            "label": ["TSA", "MIL"]
           },
           {
-            "label": ["AMC", "MIL"],
-            "station_id": "EFIN_MIL"
+            "label": ["AMC", "MIL"]
           }
         ]
       }
@@ -362,12 +360,10 @@
             "label": []
           },
           {
-            "label": ["TSA", "MIL"],
-            "station_id": "EFIN_MIL"
+            "label": ["TSA", "MIL"]
           },
           {
-            "label": ["AMC", "MIL"],
-            "station_id": "EFIN_MIL"
+            "label": ["AMC", "MIL"]
           }
         ]
       }
@@ -526,8 +522,7 @@
             "label": []
           },
           {
-            "label": ["TSA", "MIL"],
-            "station_id": "EFIN_MIL"
+            "label": ["TSA", "MIL"]
           },
           {
             "label": ["EFTU", "TWR"],
@@ -552,8 +547,7 @@
             "label": []
           },
           {
-            "label": ["AMC", "MIL"],
-            "station_id": "EFIN_MIL"
+            "label": ["AMC", "MIL"]
           }
         ]
       }
