@@ -170,12 +170,10 @@
             "station_id": "EETT_FMP"
           },
           {
-            "label": ["AMC", "MIL"],
-            "station_id": "EFIN_MIL"
+            "label": ["AMC", "MIL"]
           },
           {
-            "label": ["TSA", "MIL"],
-            "station_id": "EFIN_MIL"
+            "label": ["TSA", "MIL"]
           }
         ]
       }
