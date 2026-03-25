@@ -401,7 +401,7 @@
           },
           {
             "label": ["EFIN", "FMP"],
-            "station_id": "EFIN_C"
+            "station_id": "EFIN_FMP"
           },
           {
             "label": ["EFJY", "APP"],
