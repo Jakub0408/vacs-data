@@ -353,14 +353,14 @@ id = "EFKU_TWR"
 prefixes = ["EFKU"]
 frequency = "120.150"
 facility_type = "TWR"
-profile_id = "EFKU"
+profile_id = "EFXX"
 
 [[positions]]
 id = "EFKU_R_TWR"
 prefixes = ["EFKU_R"]
 frequency = "120.150"
 facility_type = "TWR"
-profile_id = "EFKU"
+profile_id = "EFXX"
 
 [[positions]]
 id = "EFLP_P_TWR"
